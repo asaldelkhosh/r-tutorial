@@ -1,5 +1,5 @@
 # reading our csv file
-data <- read.csv("./04. CSV/input.csv")
+data <- read.csv("input.csv")
 
 # printing data
 print(is.data.frame(data))
