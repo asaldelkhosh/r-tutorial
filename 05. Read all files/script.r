@@ -13,4 +13,6 @@ path <- "./05. Read all files/"
 files <- read_files(path)
 
 print(length(files))
-print(files)
+for (file in files) {
+    print(file)
+}
