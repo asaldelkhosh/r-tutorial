@@ -9,4 +9,6 @@ degree = sample(c("MA","ME","BE","BSCS"), POPULATION, replace=TRUE)
 data = data.frame(gender=gender, age=age, degree=degree)
 
 # order our data
-data[order(data$age),]
+od = data[order(data$age),]
+
+write.csv(od, "order.csv")
